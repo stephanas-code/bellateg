@@ -1,0 +1,92 @@
+{% extends 'hairmpire/layout.html' %}   
+{% load static%}  
+
+{% block title %} Contact BellaTeg Hairmpire {% endblock %}
+        
+{% block content %}
+{% block active4 %} active {% endblock %}
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('{% static "hairmpire/images/headies.jpg" %}');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h2 class="mb-0 bread">Contact us</h2>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{% url 'index' %}">Home <i class="ion-ios-arrow-round-forward"></i></a></span> <span>contact<i class="ion-ios-arrow-round-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      
+    <section class="ftco-section ftco-booking bg-light">
+    	<div class="container ftco-relative">
+    		<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">FOR ENQUIRIES AND CONSULTATIONS</span>
+            <h2 class="mb-4">Book an Appointment With Us.</h2>
+            <p>Fill in the form below and you will get a response from one of our staffs in no time.</p>
+          </div>
+        </div>
+    		<div class="row justify-content-center">
+    			<div class="col-md-10 ftco-animate">
+    				<form action="#" class="appointment-form">
+	            <div class="row">
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_name" placeholder="Name">
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_date" placeholder="Date">
+	                </div>    
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_time" placeholder="Time">
+	                </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                      	<option value="">Hair Treatments</option>
+                        <option value="">Cosmetic</option>
+                        <option value="">Hair Revamping</option>
+                        <option value="">Hair Coloring</option>
+                        <option value="">Fixing of Lashes</option>
+                        <option value="">Hair Braiding</option>
+                      </select>
+                    </div>
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" id="phone" placeholder="Phone">
+	                </div>
+	              </div>
+	              <div class="col-md-12">
+	              	<div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+	              </div>
+		          </div>
+		          <div class="form-group">
+	              <input type="submit" value="Make an Appointment" class="btn btn-primary">
+	            </div>
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+
+    {% endblock %}

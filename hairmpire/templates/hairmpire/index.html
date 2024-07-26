@@ -1,0 +1,492 @@
+{% extends 'hairmpire/layout.html' %}   
+{% load static%}  
+
+{% block title %} BellaTeg Hairmpire {% endblock %}
+        
+{% block content %}
+
+{% block active1 %} active {% endblock %}
+   <section class="hero-wrap js-fullheight" style="background-image: url('{% static "hairmpire/images/headies.jpg" %} ');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-12 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Welcome to BellaTeg Hairmpire</span>
+		  				<h1 class="mb-4">Professional Haircare And Beauty Service</h1>
+		  				<p><a href="{% url 'contact'  %}" class="btn btn-primary btn-outline-primary px-4 py-2">Book now</a></p>
+							</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services-section ftco-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Services</span>
+            <h2 class="mb-4">Our Services</h2>
+            <p>We specialize on haircare and professional beauty services</p>
+          </div>
+        </div>
+        <div class="row no-gutters d-flex">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/Hair%20treatment.jpg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Treatments</h3>
+                <p>The use of essential oils and products to manage common hair problems such as hair fall, dryness, dandruff, frizzy/thinning hair & so on.....</p>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/nailsfixing.png' %}" alt="colored-fingernails"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Cosmetics</h3>
+                <p>Our experienced staffs provides good cosmetology service that suits your desires</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair%20revamp.jpeg' %}" alt="cartoon-girl-holding-her-hair" height="240px" width="300px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Revamping</h3>
+                <p>At BellaTeg Hairmpire we revamp your chaffed, wrinkled and old hair to its original shine</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair%20coloring.jpg' %}" alt="hair-products"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Coloring</h3>
+                <p>Here at BellaTeg Hairmpire our hair stylists will create the colors you want</p>
+              </div>
+            </div>      
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/wigshair.jpg' %}" alt="hair-wig"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Sales of Wigs & Hair Extension</h3>
+                <p>At BellaTeg Hairmpire we also deal on sales of Weaves, Wigs & Hair Extensions at affordable prices</p>
+              </div>
+            </div>      
+          </div>
+           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+             <div class="icon"><img src="{% static 'hairmpire/images/Haircare%20products.jpg' %}" alt="hair-products"> </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Sales of Quality Hair Care Products</h3>
+                <p>We have a list of the absolute best Hair Care products you can buy for good hair days, every day.</p>
+              </div>
+            </div>      
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+             <div class="icon"><img src="{% static 'hairmpire/images/FixingLashes.jpg' %}" alt="hair-products"> </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Fixing of Lashes</h3>
+                <p>Get your eyelashes the perfect fix! when you let our experienced stylists handle it for you</p>
+              </div>
+            </div>      
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+             <div class="icon"><img src="{% static 'hairmpire/images/braiding.jpg' %}" alt="hair-products"> </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Braiding</h3>
+                <p>Get your eyelashes the perfect fix! when you let our experienced stylists handle it for you</p>
+              </div>
+            </div>      
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-booking bg-light">
+    	<div class="container ftco-relative">
+    		<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">FOR ENQUIRIES AND CONSULTATIONS</span>
+            <h2 class="mb-4">Book an Appointment With Us.</h2>
+            <p>Fill in the form below and you will get a response from one of our staffs in no time.</p>
+          </div>
+        </div>
+    		<div class="row justify-content-center">
+    			<div class="col-md-10 ftco-animate">
+    				<form action="#" class="appointment-form">
+	            <div class="row">
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_name" placeholder="Name">
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_date" placeholder="Date">
+	                </div>    
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_time" placeholder="Time">
+	                </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                      	<option value="">Hair Treatments</option>
+                        <option value="">Cosmetic</option>
+                        <option value="">Hair Revamping</option>
+                        <option value="">Hair Coloring</option>
+                        <option value="">Fixing of Lashes</option>
+                        <option value="">Hair Braiding</option>
+                      </select>
+                    </div>
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" id="phone" placeholder="Phone">
+	                </div>
+	              </div>
+	              <div class="col-md-12">
+	              	<div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+	              </div>
+		          </div>
+		          <div class="form-group">
+	              <input type="submit" value="Make an Appointment" class="btn btn-primary">
+	            </div>
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section class="services-section ftco-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Products</span>
+            <h2 class="mb-4">available haircare products</h2>
+            <p>we have some of the best Hair care products in the market</p>
+          </div>
+        </div>
+        <div class="row no-gutters d-flex">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-1.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Comb</h3>
+                <h6>Detangling Hair Comb</h6>
+                <span style="font-weight: bold;">&#8358;500</span><br>
+                  <a href="https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Comb%.”> <button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-2.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Brush</h3>
+                <h6>Tangle Teezer Detangling Brush</h6>
+                <span style="font-weight: bold">&#8358;3000</span><br>
+                 <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Brush%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-3.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Brush</h3>
+                <h6>Ineffable Care Curved Brush</h6>
+                <span style="font-weight: bold">&#8358;1500</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Curved%20Brush%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-3s.jpg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Conditioner</h3>
+                <h6>Protective Mega Growth</h6>
+                <span style="font-weight: bold">&#8358;2500</span><br>
+                   <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Growth%20Cream%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-5.jpg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+             <div class="media-body">
+                <h3 class="heading mb-3">Hair Fragrance</h3>
+                <h6>L'Uodias Hair Care moisturizer and scalp treatment </h6>
+                <span style="font-weight: bold">&#8358;2000</span><br>
+                   <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Moisturizer%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/haircare-6.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Lotion</h3>
+                <h6>L'Uodias Hair Repair Serum</h6>
+                <span style="font-weight: bold">&#8358;3500</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Lotion%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hairdye-3.jpg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Shampoo</h3>
+                <h6>ELAN Mentholated Shampoo</h6>
+                <span style="font-weight: bold">&#8358;2500</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Shampoo%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hairdye-5.jpg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Gel</h3>
+                <h6>Eco Styler Styling Gel</h6>
+                <span style="font-weight: bold">&#8358;3000</span><br>
+                 <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20gel%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div> 
+        </div>
+      </div>
+    </section>
+
+      <hr><br>
+    <!--hold -->
+    <section class="services-section ftco-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Products</span>
+            <h2 class="mb-4">wigs/weaves/attachments</h2>
+            <p>You can glance through some of our available Hair careproducts below</p>
+          </div>
+        </div>
+        <div class="row no-gutters d-flex">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-1.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>Hair Blend</h6>
+                <span style="font-weight: bold">&#8358;12000</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Blend%20#12000%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-2.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>kinky hair blend full frontal</h6>
+                <span style="font-weight: bold">&#8358;25000</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Kinky%20Hair%20Blend%20Full%20Frontal%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-3.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>Hair Blend</h6>
+                <span style="font-weight: bold">&#8358;6000</span><br>
+                 <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Blend%20#6000%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-4.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>Full frontal hair blends</h6>
+                <span style="font-weight: bold">&#8358;28000</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Full%20Frontal%20Hair%20Blend%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-5.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Wig</h3>
+                <h6>Jerry Curl Frontal wig</h6>
+                <span style="font-weight: bold">&#8358;26000</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Jerry%20Curl%20Frontal%20Wig%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-6.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>Hair Blend</h6>
+                <span style="font-weight: bold">&#8358;14000</span><br>
+                  <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Blend%20#14000%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-7.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Hair Blends</h3>
+                <h6>Hair Blend</h6>
+                <span style="font-weight: bold">&#8358;10000</span><br>
+                 <a href=” https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20Hair%20Blend%20#10000%.”><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="icon"><img src="{% static 'hairmpire/images/hair-8.jpeg' %}" alt="hair-treatment" height="250px" width="240px"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Bone Straight</h3>
+                <h6>Vietnamese Bone Straight 10"</h6>
+                <span style="font-weight: bold">&#8358;90000</span><br>
+                  <a href="https://wa.me/+2348136194216/?text=Hello!%20I%20want%20to%20buy%20this%20product."><button style="color: white; background-color: goldenrod;">BUY NOW</button></a>
+              </div>
+            </div>    
+          </div> 
+        </div>
+      </div>
+    </section>
+
+  
+	 <!--hold -->	
+		<section class="ftco-section ftco-pricing">
+			<div class="container">
+				<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Pricing</span>
+            <h2 class="mb-4">Our Prices</h2>
+            <p>Below are the different affordable prices of our services offered. Price can be negotiated when you visit our online store.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Hair Treatment</h3>
+	        			<p><span class="price">&#8358;5000</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Hair Dryer</li>
+								<li>Hair washing</li>
+								<li>Hair massage</li>
+								<li>Hair Dressing</li>
+								<li>Full Cleaning</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Manicure Pedicure</h3>
+	        			<p><span class="price">&#8358;5000</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Manicure</li>
+								<li>Pedicure</li>
+								<li>Coloring</li>
+								<li>Nails</li>
+								<li>Nail Cut</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry active pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Makeup</h3>
+	        			<p><span class="price">&#8358;3000</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Makeup</li>
+								<li>Professional Makeup</li>
+								<li>Blush On</li>
+								<li>Facial Massage</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Hair Revamping</h3>
+	        			<p><span class="price">&#8358;3500</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Massage</li>
+								<li> Washing</li>
+								<li>Deep Conditioning</li>
+								<li>Restyling</li>
+								<li> Coloring</li>
+        			</ul>
+        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
+        		</div>
+        	</div>
+        </div>
+			</div>
+		</section>
+
+		<section class="testimony-section bg-light">
+      <div class="container">
+        <div class="row ftco-animate justify-content-center">
+        	
+          <div class="col-md-6 col-lg-7 py-5 pl-md-5">
+          	<div class="py-md-5">
+	          	<div class="heading-section ftco-animate">
+	          		<span class="subheading">OUR LOCATION</span>
+			          <h2 class="mb-0">We Are located at:</h2>
+			        </div>
+	            <div class="carousel-testimony owl-carousel ftco-animate">
+	              <div class="item">
+	                <div class="testimony-wrap pb-4">
+	                  <div class="text">
+	                    <p class="mb-4">Our physical shop is located at lucas, police station road.</p>
+	                  </div>
+                        <div class="google-map">
+	                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d622311.9237550795!2d5.624969727470418!3d5.432954885158921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041747f78e3591d%3A0xe2b2398e1cc7ba0a!2sExcel%20Hostel!5e0!3m2!1sen!2sng!4v1704796889503!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>      
+                      </div>
+	            </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
+
+  

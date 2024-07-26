@@ -1,0 +1,109 @@
+{% extends 'hairmpire/layout.html' %}   
+{% load static%}  
+
+{% block title %} About BellaTeg Hairmpire {% endblock %}
+        
+{% block content %}
+{% block active3 %} active {% endblock %}
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('{% static "hairmpire/images/headies.jpg" %}');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h2 class="mb-0 bread">About us</h2>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{% url 'index' %}">Home <i class="ion-ios-arrow-round-forward"></i></a></span> <span>About <i class="ion-ios-arrow-round-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section><br>
+    
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 py-md-6 pb-6 wrap-about pb-md-6 ftco-animate">
+	          <div class="heading-section mb-4 mt-md-5">
+	          	<span class="subheading">About Us</span>
+	            <h2 class="mb-4">Welcome To bellateg hairmpire A Hair and beauty Salon</h2>
+	          </div>
+	          <div class="pb-md-6">
+							<p>We’re an all-type-hair-type salon that specialises in female hair and beauty needs. We are also a one-stop hair & beauty shop that delivers world class services and products that are accessible, affordable and authentic.</p>
+							<p>it is our mission to provide 100% guest satisfaction, seven days a week & wearing a smile. If you are not totally satisfied with your treatment, talk to us & tell us why & if we can’t turn that frown back into a smile, then your treatment is on us.</p>
+						</div><br><hr>
+                        
+             <div class="heading-section mb-4 mt-md-5">
+	          	<span class="subheading">OUR LOCATION</span>
+	            <h2 class="mb-4">for more enquiries and consultation we are located at:</h2>
+	          </div>
+                    <div class="pb-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d508130.953522111!2d6.191718791919136!3d5.745776923787504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scampus%203%20abraka%20map!5e0!3m2!1sen!2sng!4v1703153747794!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                 <h5>Our physical shop is located at no.5 lucas, police station road</h5>
+                    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-team">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Artistic Director</span>
+            <h2 class="mb-4">Hair Stylist and beauty expert</h2>
+            <p>Mrs Bella ---- is the CEO and Managing Director of BellaTeg Hairmpire Hair and Beauty Company</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12 ftco-animate">
+        		<div class="carousel-team owl-carousel">
+        			<div class="item">
+		        		<a href="#" class="team text-center">
+		        			<div class="img" style="background-image: url('{%static "hairmpire/images/stylist-1.jpeg" %}");"></div>
+		        			<h2>bella teg</h2>
+		        			<span class="position">CEO</span>
+		        		</a>
+        			</div>
+                    <div class="item">
+		        		<a href="#" class="team text-center">
+		        			<div class="img" style="background-image: url({% static 'hairmpire/images/stylist-1.jpeg' %});"></div>
+		        			<h2>bella teg</h2>
+		        			<span class="position">Hair Stylist</span>
+		        		</a>
+        			</div>
+                    <div class="item">
+		        		<a href="#" class="team text-center">
+		        			<div class="img" style="background-image: url({% static 'hairmpire/images/stylist-1.jpeg' %});"></div>
+		        			<h2>bella teg</h2>
+		        			<span class="position">Makeup Artist</span>
+		        		</a>
+                    </div> 
+                    <div class="item">
+		        		<a href="#" class="team text-center">
+		        			<div class="img" style="background-image: url({% static 'hairmpire/images/stylist-1.jpeg' %});"></div>
+		        			<h2>bella teg</h2>
+		        			<span class="position">Beauty Expert</span>
+		        		</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+		
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container-fluid px-0">
+				<div class="row no-gutters">
+					<div class="col-md-6 text-center d-flex align-items-stretch">
+						<div class="text-about py-5 px-4">
+							<h1 class="logo">
+								<a href="#"><span class="flaticon-scissors-in-a-hair-salon-badge"></span>BellaTeg Hairmpire</a>
+							</h1>
+							<h2>Welcomes you</h2>
+							<p>At our hair salon, we pride ourselves on delivering top-notch service to each and every one of our clients. We are thrilled to have received numerous 5-star ratings from our satisfied customers, who have praised us for our exceptional hair care and personalized attention. Our team of skilled stylists work tirelessly to exceed your expectations, and we are delighted to hear that our efforts have been recognized by our clients. We are committed to providing a 5-star experience to everyone who walks through our doors, and we look forward to exceeding your expectations too!.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+       
+  {% endblock %}
